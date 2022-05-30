@@ -1,0 +1,38 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "a",
+      "email": "a@gmail.com",
+      "password": "abcd",
+      "address": "abc",
+      "city": "tamilnadu",
+      "country": "india",
+      "phonenumber": "12345",
+      "role": "guest"
+    },
+    {
+      "id": 2,
+      "name": "b",
+      "email": "b@gmail.com",
+      "password": "bcde",
+      "address": "ac",
+      "city": "tamilnadu",
+      "country": "india",
+      "phonenumber": "232435",
+      "role": "user"
+    },
+    {
+      "name": "test",
+      "email": "we@gmail.com",
+      "password": "sdcs",
+      "address": "sdcss",
+      "city": "das",
+      "country": "dsas",
+      "phonenumber": "sdsdsa",
+      "role": "admin",
+      "id": 3
+    }
+  ]
+  
+}

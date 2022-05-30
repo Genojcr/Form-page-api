@@ -1,0 +1,75 @@
+.cardContainer{
+    width: 300px;
+    height: 650px;
+    background: #FFF;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0px 1px 10px 1px #000;
+    overflow: hidden;
+    display: inline-block;
+    }
+
+    .upper-container{
+        height: 150px;
+        background: #7F00FF;
+        }
+        .image-container{
+            background: white;
+    width: 80px;
+    height: 103px;
+    border-radius: 50%;
+    padding: 1px;
+    transform: translate(100px,100px);
+        }
+        .image-container img{
+        width: 80px;
+        height: 90px;
+        border-radius: 50%;
+        }
+        .lower-container{
+        height: 280px;
+        background: #FFF;
+        padding: 20px;
+        padding-top: 76px;
+        text-align: center;
+        }
+      
+            .lower-container h3{
+                box-sizing: border-box;
+                line-height: 25px;
+                font-weight: bolder;
+                color: brown;
+                font-family: fantasy;
+                font-size: 39px;
+            }
+            .lower-container h4 {
+                color: #7F00FF;
+                font-weight: bold;
+                font-size: 29px;
+                margin: 15px;
+            }
+            .lower-container p{
+                font-family: emoji;
+                font-size: 18px;
+                color: #0a19cb;
+                margin-bottom: 19px;
+            }
+            button {
+                padding: 12px 20px;
+                background: #7F00FF;
+                border: none;
+                color: white;
+                border-radius: 30px;
+                font-size: 14px;
+                text-decoration: none;
+                font-weight: bold;
+                transition: all .3s ease-in;
+            }
+            button:hover{
+            background: transparent;
+            color: #7F00FF;
+            border: 2px solid #7F00FF;
+            }

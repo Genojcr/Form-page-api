@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  html,body{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background: -webkit-linear-gradient(left, #a445b2, #fa4299);
+  }
+  ::selection{
+    background: #fa4299;
+    color: #fff;
+  }
+  .wrapper{
+      margin-top: 10px;
+    overflow: hidden;
+    width: 400px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+  }
+  .formContainer{
+    width: 100%;
+    overflow: hidden;
+  }
+
+
+  .formContainer{
+    width: 100%;
+    overflow: hidden;
+  }
+  .formContainer .formInner{
+    display: flex;
+    width: 200%;
+  }
+  form{
+    width: 50%;
+    transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
+  }
+  .field{
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    border-bottom-width: 2px;
+    font-size: 17px;
+    transition: all 0.3s ease;
+  }
+
+  form .btn{
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+  }
+  .btnLayer{
+    height: 100%;
+    width: 300%;
+    position: absolute;
+    left: -100%;
+    background: -webkit-linear-gradient(right, #a445b2, #fa4299, #a445b2, #fa4299);
+    border-radius: 5px;
+    transition: all 0.4s ease;;
+  }
+  form .btn:hover .btnLayer{
+    left: 0;
+  }
+  form .btn input[type="submit"]{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    background: none;
+    border: none;
+    color: #fff;
+    padding-left: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+.formInner form .field input:focus{
+    border-color: #fc83bb;
+   
+  }
+  .formInner form .field input::placeholder{
+    color: #999;
+    transition: all 0.3s ease;
+  }
+  form .field input:focus::placeholder{
+    color: #b3b3b3;
+  }
+
+  
+  .slideControls button {
+    color: #fff;
+    height: 50px;
+    width: 50%;
+    background: #962459;
+    
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    font-size: 21px;
+    border-width: 3px;
+    border-color: hotpink;
+}
+textarea {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    border-bottom-width: 2px;
+    font-size: 17px;
+    transition: all 0.3s ease;
+    padding-bottom: 48px;
+   
+}
+.field1{
+    width: 100%;
+margin-top: 20px;
+
+}
+
+.formInner form .field1 textarea:focus{
+    border-color: #fc83bb;
+}
+.submit
+{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    background: none;
+    border: none;
+    color: #fff;
+    padding-left: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#role{
+    
+        font-size: 20px;
+        color: darkmagenta;
+    
+}
+label{
+    color: FIREBRICK;
+    font-size: 20px;
+    font-family: cursive;
+}
